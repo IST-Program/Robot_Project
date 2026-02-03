@@ -22,3 +22,5 @@ if box is full then get new box. items are placed and count up to 60 then one fu
 createPallet.  We need to get data from fillbox for fullbox then a full pallet is 10 Fullbox so with some math like adding to its equal to 10. Then we need to had the pallet off somewhere 
 
 If Fullbox is equal to 10 then we make one pallet 
+
+part 1
