@@ -1,6 +1,6 @@
 name = "barry"
 charge = int(100)
-
+print("charge:", charge)
 
 def fillBox():
     fullbox = 0
