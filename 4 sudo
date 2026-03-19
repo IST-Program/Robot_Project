@@ -1,0 +1,3 @@
+fname = open("example.csv", 'r')
+
+
