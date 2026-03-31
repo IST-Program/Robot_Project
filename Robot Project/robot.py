@@ -86,7 +86,7 @@ def outputOrderAuto(fname):
         lines.pop(0)
 
         # initialize a list to store the items
-        items = [0, 0, 0]
+        items = {"Hardware": 0, "Lumber": 0, "Paint": 0}
 
         # reads each line
         for line in lines:
@@ -94,15 +94,15 @@ def outputOrderAuto(fname):
             columns = line.strip().split(',')
 
             # give the robot each number of items in this specific order
-            items[0] += int(columns[0]) # Hardware
-            items[1] += int(columns[1]) # Lumber
-            items[2] += int(columns[2]) # Paint
+            items["Hardware"] += int(columns[0])
+            items["Lumber"] += int(columns[1])
+            items["Paint"] += int(columns[2])
         
         # outputs the items that the robot needs from the file
         print("Items to aquire: ")
-        print("Hardware: ", {items[0]})
-        print("Lumber: ", {items[1]})
-        print("Paint: ", {items[2]})
+        for item_t, quantity in items.items():
+            print(f"{item_t}: {quantity}:")
+
 
 def main():
     # file name

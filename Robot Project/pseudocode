@@ -53,3 +53,12 @@ def main
 csv file name
 
 csv file name
+
+
+
+Chp 5
+Change the items variable format from a list to a dictionary
+
+Change the list format for items and columns to the dictionary format to align with the change above
+
+Create a for loop for the output that prints a the output from a dictionary format for each item in the column
