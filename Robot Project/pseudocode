@@ -1,3 +1,4 @@
+Chp 1
 methods 
 
 fillBox
@@ -23,4 +24,32 @@ createPallet.  We need to get data from fillbox for fullbox then a full pallet i
 
 If Fullbox is equal to 10 then we make one pallet 
 
-part 1 
+
+
+Chp 2
+
+
+
+Chp 3
+
+
+
+Chp 4
+def example(example_file):
+    with open(example_file, mode='r') as csvfile:
+
+fname = open("example.csv", 'r')
+
+use the open method to use 
+
+list store items
+items = [0, 0, 0]
+
+read lines
+we need to spilt lines 
+get numbers of each item listed in the example_file
+
+def main
+csv file name
+
+csv file name
