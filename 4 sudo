@@ -1,3 +1,19 @@
+def example(example_file):
+    with open(example_file, mode='r') as csvfile:
+
 fname = open("example.csv", 'r')
 
+use the open method to use 
+
+list store items
+items = [0, 0, 0]
+
+read lines
+we need to spilt lines 
+get numbers of each item listed in the example_file
+
+def main
+csv file name
+
+csv file name
 
